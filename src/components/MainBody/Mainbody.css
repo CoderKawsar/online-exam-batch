@@ -1,0 +1,36 @@
+main {
+  position: "relative";
+}
+
+.main-div {
+  margin-top: 20px;
+  display: grid;
+  grid-gap: 100px;
+  grid-template-areas: "left right";
+  align-items: center;
+  padding: 0px 50px;
+}
+
+.main-div-left {
+  grid-area: left;
+  padding: 0px 10px;
+}
+
+.main-div-left h2 {
+  font-size: 100px;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.main-div-left p {
+  font-size: 24px;
+}
+
+.main-div-right {
+  grid-area: right;
+}
+
+.main-div-right img {
+  width: 80%;
+}

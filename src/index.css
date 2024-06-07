@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@700;900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  max-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 120px;
+  height: 20px;
+  background: radial-gradient(circle 10px, #10abf0 95%, #0000) right /
+      calc(200% + 20px) 100%,
+    linear-gradient(#fff 0 0) center/100% 6px;
+  background-repeat: no-repeat;
+  -webkit-mask: radial-gradient(circle 4px, #10abf0 93%, #000)
+    right/calc(200% + 20px) 100%;
+  animation: l6 1s infinite linear;
+}
+@keyframes l6 {
+  100% {
+    background-position: left;
+    -webkit-mask-position: left;
+  }
+}
+
+header {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  padding: 20px 0px;
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  header img {
+    height: 120px;
+    width: 120px;
+  }
+
+  .main-div {
+    grid-template-areas:
+      "right"
+      "left";
+    grid-gap: 30px;
+    padding: 0;
+  }
+
+  .main-div-left h2 {
+    font-size: 70px;
+    text-align: center;
+  }
+  .main-div-left p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .loader-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-div-right {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-div-right img {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .main-div-right img {
+    height: 450px;
+    width: 450px;
+  }
+}

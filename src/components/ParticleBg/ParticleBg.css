@@ -1,0 +1,8 @@
+#tsparticles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Ensures full background coverage */
+  z-index: -1; /* Place particles behind content */
+}
