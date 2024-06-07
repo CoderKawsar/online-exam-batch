@@ -57,11 +57,6 @@ footer p {
     justify-content: center;
   }
 
-  header img {
-    height: 120px;
-    width: 120px;
-  }
-
   .main-div {
     grid-template-areas:
       "right"
