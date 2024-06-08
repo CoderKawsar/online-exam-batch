@@ -36,6 +36,10 @@ h6 {
 
 header {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: #efefef;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
 }
 
 footer {
@@ -53,6 +57,7 @@ footer p {
   header {
     display: flex;
     justify-content: center;
+    padding-left: 0px;
   }
 
   .main-div {

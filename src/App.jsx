@@ -4,11 +4,11 @@ import MainBody from "./components/MainBody/MainBody";
 function App() {
   return (
     <div style={{ zIndex: 10 }}>
-      <header style={{ background: "#efefef" }}>
+      <header>
         <img
           src={oebLogo}
           alt="Online Exam Batch Logo"
-          height={100}
+          height={50}
           width={120}
           style={{
             cursor: "pointer",
