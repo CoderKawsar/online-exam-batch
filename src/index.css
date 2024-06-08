@@ -25,8 +25,6 @@ h6 {
       calc(200% + 20px) 100%,
     linear-gradient(#fff 0 0) center/100% 6px;
   background-repeat: no-repeat;
-  -webkit-mask: radial-gradient(circle 4px, #10abf0 93%, #000)
-    right/calc(200% + 20px) 100%;
   animation: l6 1s infinite linear;
 }
 @keyframes l6 {
